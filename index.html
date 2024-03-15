@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Spring Fest'24 - First Contribution</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="landing-page">
+        <h1>Let's start your First Contribution with Open Spring Fest'24</h1>
+        <div class="scroll-down" onclick="scrollToNextSection()">
+        </div>
+    </div>
+
+    <!--
+        If you dont want to use your profile pics there can use this as src as well as alt
+        boyProfilePic = `https://avatar.iran.liara.run/public/boy?username=${username}`;
+        girlProfilePic = `https://avatar.iran.liara.run/public/girl?username=${username}`;
+    -->
+
+    <div class="main">
+        <section id="contributors-section" class="contributors-section">
+            <div class="container">
+                <h2 class="subHead">Our Contributors</h2>
+                <div class="card-container">
+                    <a href="https://github.com/AbdullahChauhan" target="_blank" class="card-link">
+                        <div class="card">
+                            <img class="card-img-top"
+                                src="https://avatar.iran.liara.run/public/boy?username=AbdullahChauhan" alt="">
+
+                            <div class="card-body" data-tilt data-tilt-scale="1.1" data-tilt-glare
+                                data-tilt-max-glare="0.2">
+                                <h5 class="card-title">
+                                    <p class="developer-name">Abdullah Chauhan 🇵🇰</p>
+                                    <p>2201022XX</p>
+                                    <p>CSE</p>
+                                </h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card-container">
+                    <a href="https://github.com/AbdullahChauhan" target="_blank" class="card-link">
+                        <div class="card">
+                            <img class="card-img-top"
+                                src="https://avatar.iran.liara.run/public/boy?username=AbdullahChauhan" alt="">
+
+                            <div class="card-body" data-tilt data-tilt-scale="1.1" data-tilt-glare
+                                data-tilt-max-glare="0.2">
+                                <h5 class="card-title">
+                                    <p class="developer-name">Abdullah Chauhan 🇵🇰</p>
+                                    <p>2201022XX</p>
+                                    <p>CSE</p>
+                                </h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Create Your Card Here -->
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container text-center">
+            <p>Open Spring Fest'24 - Indian Institute of Information Technology Bhagalpur</p>
+            <p>&copy; 2024 All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"
+        integrity="sha512-rQ/zqTsbLszWV4UnV/AV6NtQR2LPLyQGXxuEsKN/iVtj9g3QCMxZpDXPD9X9yMsW7OH3n+jOqDLUZi/VjwjZDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
+        integrity="sha512-EygFZmEwMCSx5+zS8ar8C6CKMyJN3grFGUSzBv2wMRf7JXewh0fcWj5/v1/7kvFPRptd3gsKleAZeS/GDyEOjQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card-body"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 0.2,
+        });
+    </script>
+
+</body>
+
+</html>
